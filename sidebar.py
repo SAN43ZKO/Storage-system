@@ -13,6 +13,7 @@ class SideBar(QMainWindow, Ui_MainWindow):
 
         self.home_1.clicked.connect(self.switch_to_homePage)
         self.home_2.clicked.connect(self.switch_to_homePage)
+        self.home_1.setChecked(True)
 
         self.storage_1.clicked.connect(self.switch_to_storagePage)
         self.storage_2.clicked.connect(self.switch_to_storagePage)
